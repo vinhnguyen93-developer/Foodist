@@ -54,7 +54,7 @@ button {
 
 .event-banner-top-image {
   width: 100%;
-  height: 6.5rem;
+  height: 12vh;
   object-fit: cover;
 }
 
@@ -72,12 +72,12 @@ button {
 }
 
 .event-card-title {
-  font-size: 1.7rem;
+  font-size: 3vh;
   font-weight: 700;
   color: white;
   background-color: var(--main-color);
-  height: 2.9rem;
-  line-height: 2.9rem;
+  height: 5vh;
+  line-height: 5vh;
   text-align: center;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -93,7 +93,7 @@ button {
 
 .event-card-text {
   color: var(--third-color);
-  font-size: 1.4rem;
+  font-size: 2vh;
   font-weight: 900;
   padding: 0.6rem 1rem;
   text-align: center;
@@ -115,12 +115,12 @@ button {
 
 .event-card-item-image {
   margin: auto;
-  width: 4rem;
+  width: 85%;
   border-radius: 50%;
 }
 
 .event-card-item-text {
-  font-size: 0.5rem;
+  font-size: 1vh;
   color: var(--third-color);
   font-weight: 900;
   line-height: 0.9rem;
@@ -152,14 +152,14 @@ button {
 
 .event-title-text {
   color: var(--text-color);
-  height: 2rem;
-  line-height: 2rem;
+  height: 4vh;
+  line-height: 4vh;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 2vh;
 }
 
 .event-wrap-button {
-  margin: 0.8rem 0;
+  margin: 2vh 0;
   text-align: center;
 }
 
@@ -187,7 +187,7 @@ button {
   -webkit-text-underline-offset: -0.2rem;
 }
 
-@media screen and (min-width: 340px) {
+/* @media screen and (min-width: 320px) {
   .event-content {
     padding: 1.5rem 3rem;
   }
@@ -199,4 +199,4 @@ button {
   .event-wrap-button {
     padding: 1.5rem 0;
   }
-}
+} */
