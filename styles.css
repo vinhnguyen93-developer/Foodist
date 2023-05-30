@@ -41,6 +41,13 @@ button {
   cursor: pointer;
 }
 
+.event {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
 .event-banner-top {
   position: relative;
 }
@@ -53,6 +60,10 @@ button {
 
 .event-content {
   padding: 0.8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
 }
 
 .event-card {
